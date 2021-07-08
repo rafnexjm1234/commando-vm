@@ -291,7 +291,7 @@ if ($defender.Status -eq "Running"){
   }
     Write-Host "`tContinuing..." -ForegroundColor Green
   }
-}else {
+else {
   Start-Sleep -Milliseconds 500
   Write-Host "`tLooks good" -ForegroundColor Cyan
   Start-Sleep -Milliseconds 500
